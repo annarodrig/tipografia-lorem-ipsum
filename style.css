@@ -9,25 +9,30 @@
     --cor-texto: #22223b;
 
     width: 700px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
 }
 body {
     background-color: var(--cor-fundo);
-
+   
 }
 h1,h2,h3,h4,h5 {
     font-family: 'Roboto';
     color: var(--cor-destaque);
+    font-weight: bolder;
+    padding-left: 10px;
 
 }
 img {
-    border-radius: 5%;
 
+    border-radius: 5%;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    margin: 25px;    
+    padding: none;
+    
 }
-p {
+p,a {
     color: #22223b;
     font-family: 'Roboto';
-
+    padding-left: 10px;
 }
-
